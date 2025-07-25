@@ -1,0 +1,159 @@
+body
+{  background-color: #222;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#header nav {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    background: #222;
+    padding: 1rem;
+}
+
+#siteName {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-right: 2rem;
+}
+
+#header nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+#header nav a:hover {
+    text-decoration: underline;
+}
+
+
+#about {
+    background-color: #222;
+    color: #ffffff;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 150px;
+}
+
+#ShortBio {
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-align: left;
+    margin-top: 50px;
+}
+
+#Works {
+    background-color: #222;
+    color: #ffffff;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+.bio-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.bio-text {
+    flex: 1;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.bio-image img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.project-card {
+    background: #333;
+    color: #fff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    width: 300px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    text-align: left;
+}
+
+.project-card h2 {
+    margin-top: 0;
+}
+
+.project-card a {
+    color: #00bfff;
+    text-decoration: none;
+}
+
+.project-card a:hover {
+    text-decoration: underline;
+}
+
+
+#pic {
+    border-radius: 100%;
+    width: 500px;
+    height: 500px;
+    
+    
+
+}
+
+#profilepic {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.contact-card {
+    background: #333;
+    color: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    max-width: 400px;
+    margin: 2rem auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    text-align: left;
+}
+
+.contact-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-card li {
+    margin-bottom: 1rem;
+}
+
+.contact-card a {
+    color: #00bfff;
+    text-decoration: none;
+}
+
+.contact-card a:hover {
+    text-decoration: underline;
+}
