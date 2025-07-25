@@ -1,0 +1,80 @@
+body
+{  background-color: #222;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#header nav {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    background: #222;
+    padding: 1rem;
+}
+
+#siteName {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-right: 2rem;
+}
+
+#header nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+#header nav a:hover {
+    text-decoration: underline;
+}
+
+
+#about {
+    background-color: #222;
+    color: #ffffff;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 150px;
+}
+
+#ShortBio {
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-align: left;
+    margin-top: 300px;
+}
+
+#Works {
+    background-color: #222;
+    color: #ffffff;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+.bio-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.bio-text {
+    flex: 1;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.bio-image img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+}
