@@ -10,7 +10,7 @@ function draw() {
     
 }
 
-// You can remove this but this makes it so that the canvas resizes as the window resizes
+
 function windowResized() {
     resizeCanvas(windowWidth, windowHeight);
 }
