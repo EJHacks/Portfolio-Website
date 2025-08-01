@@ -1,5 +1,5 @@
 body
-{  background-color: #222;
+{  
     display: flex;
     flex-direction: column;
 }
@@ -9,7 +9,7 @@ body
     display: flex;
     align-items: center;
     gap: 2rem;
-    background: #222;
+    
     padding: 1rem;
 }
 
@@ -32,7 +32,7 @@ body
 
 
 #about {
-    background-color: #222;
+
     color: #ffffff;
     padding: 2rem;
     text-align: center;
@@ -47,7 +47,7 @@ body
 }
 
 #Works {
-    background-color: #222;
+    
     color: #ffffff;
     padding: 2rem;
     text-align: center;
@@ -90,7 +90,7 @@ body
 }
 
 .project-card {
-    background: #333;
+    
     color: #fff;
     padding: 1.5rem;
     border-radius: 12px;
@@ -156,4 +156,17 @@ body
 
 .contact-card a:hover {
     text-decoration: underline;
+}
+
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+h2, h1, p {
+  text-align: center;
+  color: white;
 }
