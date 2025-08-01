@@ -160,11 +160,14 @@ body
 
 
 canvas {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: block;
+    pointer-events: none;
 }
+
 
 h2, h1, p {
   text-align: center;
